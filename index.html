@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Signal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="myCanvas">
+        <div class="road"></div>
+
+        <div id="car">
+            <div class="car-body">
+                <img src="/Assets/car.png" alt="car image">
+            </div>
+            <div class="wheel">
+                <img src="/Assets/backwheel.png" class="back-wheel" alt="backwheel">
+                <img src="/Assets/frontwheel.png" class="front-wheel" alt="frontwheel">
+            </div>
+        </div>
+        <div class="traffic-light">
+            <div>
+                <img src="Assets/traffic-light.png" alt="traffic-light" class="traffic-light-sign">
+            </div>
+            <div class="lights">
+                <div class="light red"></div>
+                <div class="light yellow"></div>
+                <div class="light green"></div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
